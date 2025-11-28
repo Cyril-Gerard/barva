@@ -229,12 +229,12 @@ import uuid
 from pathlib import Path
 from datetime import datetime
 
-from src.loader import load_json, load_yaml, load_playbook_md
-from src.sampler import sample_backups
-from src.checksum import compute_checksum, compare_checksums
-from src.dryrun import DryRunSimulator
-from src.analyzer import analyze_results
-from src.report import generate_report
+from loader import load_json, load_yaml, load_playbook_md
+from sampler import sample_backups
+from checksum import compute_checksum, compare_checksums
+from dryrun import DryRunSimulator
+from analyzer import analyze_results
+from report import generate_report
 
 DATA_DIR = Path("data")
 CATALOG_PATH = DATA_DIR / "backup_catalog.json"
