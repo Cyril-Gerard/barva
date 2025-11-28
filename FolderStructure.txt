@@ -1,0 +1,19 @@
+barva/
+├─ data/
+│  ├─ backup_catalog.json
+│  ├─ restore_playbooks/
+│  │  └─ db_restore.md
+│  └─ targets.yml
+├─ logs/
+│  ├─ barva_runs.csv
+│  └─ evidence/
+├─ src/
+│  ├─ __init__.py
+│  ├─ loader.py
+│  ├─ sampler.py
+│  ├─ checksum.py
+│  ├─ dryrun.py
+│  ├─ analyzer.py
+│  ├─ report.py
+│  └─ agent.py
+└─ requirements.txt
